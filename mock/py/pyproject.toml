@@ -1,0 +1,14 @@
+[project]
+name = "mockbuild"
+version = "5.1.0"
+dependencies = [
+    "distro",
+    "jinja2",
+    "pyroute2",
+    "requests",
+    "templated-dictionary",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
